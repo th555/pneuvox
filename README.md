@@ -1,6 +1,6 @@
 The code for my master's thesis "Evolving steerable pneumatic soft robots".
 
-![A robot](bigrobot3.png)
+![A robot](bigrobot3.png)![Another robot](bigrobot1.png)![More robot](bigrobot2.png)
 
 This code uses the CPPN-NEAT algorithm to simultaneously evolve the body and controller of voxel-based soft robots with realistic pneumatic actuation and sensing. The two tasks supported are simple gait learning and directed locomotion. Videos of some of the resulting robots can be seen [here](https://youtu.be/mJRQac5HiFE). For more informatoin, see [my thesis](softrobots_final2.pdf).
 
