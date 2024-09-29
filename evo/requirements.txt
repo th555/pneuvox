@@ -1,0 +1,4 @@
+numpy
+scipy
+neat-python
+mpi4py
