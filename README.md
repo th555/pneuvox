@@ -37,7 +37,7 @@ Compiling Raylib
 
 Skip this step on the DAS-6 cluster!
 
-Run `make` in its directory, then copy `raylib.h` and `raymath.h` from `raylib/src` to `raylib/include` and move `libraylib.a` from `raylib/src` to `raylib/lib`
+Run `make` in its `/src/` directory, then copy `raylib.h` and `raymath.h` from `raylib/src` to `raylib/include` and move `libraylib.a` from `raylib/src` to `raylib/lib`
 
 
 Compiling Pneuvox locally
