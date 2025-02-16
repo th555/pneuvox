@@ -19,7 +19,7 @@ INCLUDE_NOGUI = -I../voxelyze/include -isystem../tiny-dnn
 INCLUDE_GUI = -I../raylib/include -I../raylib/src
 INCLUDE = $(INCLUDE_NOGUI) $(INCLUDE_GUI)
 
-CFLAGS = -c -Wall -O3
+CFLAGS = -c -Wall -O3 -march=znver4
 
 all: pneuvox
 
