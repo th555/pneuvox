@@ -47,7 +47,7 @@ def replaybot(filename):
     results = botx.fitness(remove_tmp=False,
         eval_seconds_override=9999,
         extra_info=extra_info,
-        video_filename=filename.split('/')[-1]
+        # video_filename=filename.split('/')[-1]
         # pictures_filename=filename.split('/')[-1]
     )
     """ to join the pictures into a timelapse:

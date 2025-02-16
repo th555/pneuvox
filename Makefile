@@ -23,8 +23,8 @@ CFLAGS = -c -Wall -O3 -march=znver4
 
 all: pneuvox
 
-das6: CFLAGS += -march=znver2 -DNOGUI $(INCLUDE_NOGUI)
-das6: $(OBJ_NOGUI)
+nogui: CFLAGS += -DNOGUI $(INCLUDE_NOGUI)
+nogui: $(OBJ_NOGUI)
 	$(CXX) -o $(NAME) $(OBJ_NOGUI) $(LDFLAGS_NOGUI) $(LDLIBS_NOGUI)
 
 debug: CFLAGS = -c -Wall -O0 -g $(INCLUDE)

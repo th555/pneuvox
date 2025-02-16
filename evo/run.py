@@ -14,7 +14,7 @@ import gzip
 import pickle
 from configparser import ConfigParser
 
-save_dir = '/var/scratch/tmk390/saved_data'
+save_dir = '../../saved_data'
 
 curr_dir = os.path.dirname(os.path.abspath(__file__))
 root_dir = os.path.join(curr_dir, '..')
@@ -205,7 +205,7 @@ if __name__ == '__main__':
         experiment_name = sys.argv[1]
     else:
         print('Experiment name not given')
-    num_cores = 50
+    num_cores = 28
     max_generations = 1000
 
 
